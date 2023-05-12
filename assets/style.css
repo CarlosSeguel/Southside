@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+}
+.logo {
+    height: 5em;
+}
+.collapse {
+    justify-content: flex-end;
+}
+.introduction{
+    margin-top: 9em;
+}
+.banner-container{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    width: 100%;
+}
+.banner-image {
+    height: 350px;
+    width: 50%;
+    object-fit: cover;
+}
+.title{
+    position: absolute;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    border-radius: 15px;
+    background: rgb(0, 0, 0, 0.4);
+    padding: 30px;
+}
+h3{
+    padding-top: 1em;
+}
+.contact { 
+    text-align: center;
+    margin-top: 3em;
+    height: 2em;
+}
